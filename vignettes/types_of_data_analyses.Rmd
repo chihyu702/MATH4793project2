@@ -1,0 +1,26 @@
+---
+title: "types_of_data_analyses"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{types_of_data_analyses}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4793CHUproject2)
+```
+
+
+```{r}
+pcaAnalysis(census)
+```
+
+
